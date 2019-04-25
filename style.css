@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    font-family: Arial;
+    margin-bottom:20px;
+}
+h2{
+    margin-bottom:10px;
+}
+
+p{
+    font-size:20px;
+    font-family: Arial;
+}
+
+.main_text{
+    color:purple;
+    margin-bottom:20px;
+}
+.main_body_container{
+    width:1140px;
+    margin: 20px auto 0 auto;
+}
+.blog_post{
+   
+    width:75%;
+    float:left;
+    padding-right:30px;
+}
+.other_posts{
+    width:25%;
+    float:left;
+}
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.author_box{
+   border-top: 1px solid grey;
+}
